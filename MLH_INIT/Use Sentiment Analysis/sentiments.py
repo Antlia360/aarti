@@ -140,10 +140,10 @@ conda install tweepy
 
 import tweepy
 from textblob import TextBlob
-consumer_key = '8ynHf2XguWdZUU1eXUqLSlaWz'
-consumer_secret = 'tScvAQC4OiTtAfcmgLBOFgHLgsRIqLwfZMS5ptjtzltvUblymC'
-access_token = '1164774609515716608-8rWwgCe519fp7dqOVMABO4HfX2TWLI'
-access_token_secret = 'jedvZHQoqeC9JUI2kZAQrUFn9kjuiNVQczrLeSK4lG6lm'
+consumer_key = 'enter your api key'
+consumer_secret = 'secret key'
+access_token = 'enter'
+access_token_secret = 'enter '
 auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token, access_token_secret )
 api = tweepy.API(auth)
